@@ -11,7 +11,7 @@ $ace = new PHPACE(
   '/path/to/ace-0.9.13/ace',
   '/path/to/erg-1111-x86-64-0.9.13.dat'
 );
-$result = $ace->parseSentences(array('He gave her cat food.'));
+$result = $ace->parseSentence('He gave her cat food.');
 var_dump($result);
 
 /*
